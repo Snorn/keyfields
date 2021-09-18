@@ -1,0 +1,150 @@
+.KeyFields_App {
+  background-color: fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+
+  h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .KeyFields-header {
+    background-color:#421c88;
+    border-color: red;
+    border-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 2.2em;
+    color: #ffffff;
+    margin-top: 6px;
+  }
+
+  nav {
+    color: #ffffff;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        padding: 20px;
+      }
+    }
+    a {
+      color: #fff;
+    }
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 2.6em;
+    margin-bottom: 0.6em;
+    line-height: 1em;
+    span {
+      color: #ffd500;
+    }
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #fff;
+  }
+
+}
+
+.KeyFields_Splash {
+  background-color: #2a65a8;
+  border-style: none;
+  border-color: red;
+  height: 100vh;
+
+
+  .Splash_Content {
+    background-color: #421c88;
+    border-style: none;
+    border-color: rgb(255, 0, 0);
+    max-width: 350px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+
+  .Pop_Content {
+    border-style: none;
+    border-color: rgb(255, 0, 0);
+    max-width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 2.6em;
+    margin-bottom: 0.6em;
+    line-height: 1em;
+    span {
+      color: #ffd500;
+    }
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #fff;
+  }
+
+  .Design-btn {
+    background-color: #fff;
+    color: #1c073e;
+    margin-right: 1em;
+  }
+
+  .Deploy-btn {
+    background-color: #1c073e;
+    color: #fff;
+  }
+
+  button {
+    padding: 20px 10px;
+    margin: 0;
+    border: 0;
+    font-size: 1em;
+    background-color: none;
+    border: 1px none #fff;
+    }
+}
+
+.Main_Content {
+  background-color: #421c88;
+  border-style: none;
+  border-color: rgb(138, 56, 141);
+  height: 100vh;
+  width: 100%;
+
+  
+  svg {
+
+    border-style:none;
+    border-color: rgb(68, 0, 255);
+    height: 700px;
+    width: 1500px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
